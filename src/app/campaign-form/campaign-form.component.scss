@@ -3,10 +3,6 @@
     color: blueviolet;
   }
 
-  &__editing {
-    color: grey;
-  }
-
   &__main {
     display: flex;
     flex-direction: column;
@@ -14,8 +10,8 @@
 
     &__input {
       width: 50%;
-      height: 3rem;
-      border-radius: 1rem;
+      height: 30px;
+      border-radius: 10px;
       border: 1px solid black;
 
     }
@@ -26,19 +22,11 @@
       gap: 10px;
     }
 
-    &__butts {
+    &__submit {
       width: 20%;
       background-color: purple;
       color: aliceblue;
       height: 30px;
-      margin-right: 10px;
     }
   }
-}
-
-.list {
-  list-style: none;
-  margin-bottom: 10px;
-  display: flex;
-  justify-content: space-between;
 }
