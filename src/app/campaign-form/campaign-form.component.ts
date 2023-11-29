@@ -14,7 +14,7 @@ export class CampaignFormComponent implements OnInit {
   campaign: any = {};
   campaigns: any[];
 
-  towns: string[] = ['Town A', 'Town B', 'Town C'];
+  towns: string[] = ['Kraków', 'Wrocław', 'Gdańsk'];
   submitted: boolean = false;
   isEditing: boolean = false;
 
@@ -24,7 +24,6 @@ export class CampaignFormComponent implements OnInit {
 
 
   ngOnInit() {
-    // Retrieve the current campaign from the service when the component is initialized
     const currentCampaign = this.campaignService.getCurrentCampaign();
     this.isEditing = currentCampaign ? true : false;
     this.campaign = currentCampaign || {};
