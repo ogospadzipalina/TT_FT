@@ -14,7 +14,7 @@ export class CampaignFormComponent implements OnInit {
   campaign: any = {};
   campaigns: any[];
 
-  towns: string[] = ['Town A', 'Town B', 'Town C'];
+  towns: string[] = ['Kraków', 'Wrocław', 'Gdańsk'];
   submitted: boolean = false;
   isEditing: boolean = false;
 
