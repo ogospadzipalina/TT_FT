@@ -14,6 +14,7 @@ export class AppComponent implements OnInit {
   towns: string[] = ['Kraków', 'Wrocław', 'Gdańsk'];
   submitted: boolean = false;
   isEditing: boolean = false;
+
   @ViewChild('campaignForm') campaignForm: NgForm;
 
   constructor(private campaignService: CampaignService) {}
